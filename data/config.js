@@ -21,12 +21,7 @@ const config = {
       header: "Tags 🏷️ - @mrofisr",
       title: "Tags 🏷️",
       subtitle: "A spesific categories to make your search easier",
-    },
-    project: {
-      header: "Projects 📚 - @mrofisr",
-      title: "Projects 📚",
-      subtitle: "A selection of projects I've worked on",
-    },
+    }
   },
 };
 
