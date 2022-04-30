@@ -23,10 +23,6 @@ const links = [
     name: "Blog",
     href: "/blog",
   },
-  {
-    name: "Project",
-    href: "/project",
-  },
 ];
 export {};
 
