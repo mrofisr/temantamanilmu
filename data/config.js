@@ -1,21 +1,21 @@
 const config = {
   title: "My Personal Blog",
   author: "Abdur Rofi - @mrofisr",
-  headerTitle: "My Personal Blog",
-  description: "A simple personal blog made with NextJS and Tailwind CSS",
+  headerTitle: "My Blog",
+  description: "A simple personal blog made with hear and hope",
   language: "id-ID",
-  siteUrl: "https://nextjs-tailwind-simple-blog.vercel.app",
+  siteUrl: "https://mrofisr.dev",
   favIcon: "/static/images/favicon.png",
   page: {
     index: {
       header: "Home 🏠 - @mrofisr",
       title: "Hi, I'm Rofi 👋",
-      subtitle: "I'm a Student and Indie Wannabe 🌇",
+      subtitle: "(Be) a human being",
     },
     blog: {
       header: "Blog ✍️ - @mrofisr",
       title: "Blog ✍️",
-      subtitle: "I share anything that may help others, technologies I'm using and cool things I've made.",
+      subtitle: "A random collection of thoughts",
     },
     tags: {
       header: "Tags 🏷️ - @mrofisr",
