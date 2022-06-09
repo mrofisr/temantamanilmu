@@ -22,7 +22,7 @@ export default function Tags({ tags }) {
           return (
             <Link key={t} href={`/tags/${kebabCase(t)}`}>
               <a className="m-1 bg-gray-300 hover:bg-gray-400 rounded-full px-2 font-bold text-sm leading-loose cursor-pointer">
-                {t}
+                #{t}
               </a>
             </Link>
           );
