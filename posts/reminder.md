@@ -1,7 +1,7 @@
 ---
 title: "Sampai kapan?"
 date: "2022-06-08"
-tags: ["reminder", "manusia", "agama"]
+tags: ["reminder", "manusia", "hidup"]
 desc: "Ingat, hidup hanya di dunia hanya sementara, persiapkanlah bekal untuk pulang"
 ---
 
