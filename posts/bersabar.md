@@ -2,7 +2,7 @@
 title: "Belajar bersabar"
 date: "2022-06-29"
 tags: ["reminder", "manusia", "hidup"]
-desc: "Kehadirah mereka itu mengajarkan kita bagaimana cara memaafkan yang mungkin nggak kita dapetin dari orang lain."
+desc: "Kehadiran mereka itulah yang mengajarkan kita bagaimana cara memaafkan dan juga bersabar, yang mungkin nggak kita dapetin dari orang lain."
 ---
 
 Pernah nggak sih berada diposisi dimana kita itu punya seseorang atau sesuatu hal yang nyebelin?
