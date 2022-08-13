@@ -1,6 +1,6 @@
 ---
 title: "Diri sendiri dulu, baru orang lain"
-date: "2022-06-29"
+date: "2022-08-14"
 tags: ["reminder", "manusia", "hidup"]
 desc: "Kadang kita terlalu sibuk mencari kesalahan orang lain, sampai lupa akan cela dan kesalahan diri sendiri"
 ---
