@@ -36,20 +36,20 @@ export default function SimplePost({ frontMatter, next, prev, children }) {
             <footer>
               <div className="flex flex-col text-sm font-medium sm:flex-row sm:justify-between sm:text-base">
                 {prev && (
-                  <div className="pt-4 xl:pt-8">
+                  <div className="pt-4 xl:pt-8 dark:text-white">
                     <Link
                       href={`/blog/${prev.slug}`}
-                      className="dark:text-white"
+                      className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
                     >
                       <a>&larr; {prev.title}</a>
                     </Link>
                   </div>
                 )}
                 {next && (
-                  <div className="pt-4 xl:pt-8">
+                  <div className="pt-4 xl:pt-8 dark:text-white">
                     <Link
                       href={`/blog/${next.slug}`}
-                      className="dark:text-white"
+                      className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
                     >
                       <a> {next.title} &rarr;</a>
                     </Link>
