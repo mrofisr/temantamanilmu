@@ -39,7 +39,7 @@ export default function SimplePost({ frontMatter, next, prev, children }) {
                   <div className="pt-4 xl:pt-8">
                     <Link
                       href={`/blog/${prev.slug}`}
-                      className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                      className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400 dark:text-white"
                     >
                       <a>&larr; {prev.title}</a>
                     </Link>
@@ -49,7 +49,7 @@ export default function SimplePost({ frontMatter, next, prev, children }) {
                   <div className="pt-4 xl:pt-8">
                     <Link
                       href={`/blog/${next.slug}`}
-                      className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                      className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400 dark:text-white"
                     >
                       <a> {next.title} &rarr;</a>
                     </Link>
