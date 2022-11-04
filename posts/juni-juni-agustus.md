@@ -1,6 +1,6 @@
 ---
 title: "Juni, Juni, Agustus"
-date: "2022-08-14"
+date: "2022-11-05"
 tags: ["cerita", "lucu", "kaget"]
 desc: "Kadang nggak nyangka sih bisa nulis tulisan se lucu ini wkwkwkwk. Kalo kepo, langsung baca tulisan sebelum ini ya!"
 ---
