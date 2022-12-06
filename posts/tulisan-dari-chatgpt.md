@@ -1,6 +1,6 @@
 ---
 title: "Konten ini buatan chatGPT"
-date: "2022-06-29"
+date: "2022-12-06"
 tags: ["AI", "konten"]
 desc: "Artikel ini menjelaskan pengalaman penulis menggunakan chatGPT dari OpenAI, termasuk manfaat yang diperoleh dari penggunaan chatGPT dalam menjalankan pekerjaan secara efisien dan efektif. Artikel ini juga menyoroti kemampuan chatGPT dalam menangani banyak pertanyaan sekaligus dan kemudahan dalam mengakses informasi terbaru. Dan 100% dibuat oleh chatGPT by openAI"
 ---
