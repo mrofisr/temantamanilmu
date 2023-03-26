@@ -12,6 +12,7 @@
     "globby": "^11.0.4",
     "gray-matter": "^4.0.3",
     "mdx-bundler": "^5.1.2",
+    "moment": "^2.29.4",
     "next": "latest",
     "next-seo": "^4.26.0",
     "prettier": "^2.3.2",
@@ -27,7 +28,8 @@
     "remark-gfm": "^1.0.0",
     "remark-html": "^13.0.1",
     "remark-math": "^4.0.0",
-    "remark-slug": "^6.1.0"
+    "remark-slug": "^6.1.0",
+    "slugify": "^1.6.5"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",
