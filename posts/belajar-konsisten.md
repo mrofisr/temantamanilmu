@@ -1,6 +1,6 @@
 ---
 title: "Belajar Konsisten"
-date: "2023-03-26-105411"
+date: "2023-03-26"
 tags: ["motivasi", "konsisten", "hidup"]
 desc: "Kosistensi bukan hal yang mudah, konsistensi itu perlu dilatih setiap saat"
 ---

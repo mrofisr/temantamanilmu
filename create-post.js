@@ -5,7 +5,7 @@ const moment = require('moment');
 
 // Set the post directory and filename format
 const POST_DIR = path.join(__dirname, "posts");
-const FILENAME_FORMAT = "YYYY-MM-DD-HHmmss";
+const FILENAME_FORMAT = "YYYY-MM-DD";
 
 // Prompt the user for a post title
 const readline = require("readline").createInterface({
