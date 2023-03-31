@@ -17,7 +17,7 @@ export default function Pagination({ totalPages, currentPage }) {
             <button rel="previous" className="dark:text-white">Previous</button>
           </Link>
         )}
-        <span>
+        <span className="dark:text-white">
           {currentPage} of {totalPages}
         </span>
         {!nextPage && (
