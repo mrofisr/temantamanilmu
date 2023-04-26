@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@notionhq/client": "^2.2.4",
     "@tailwindcss/typography": "^0.4.1",
     "esbuild": "^0.12.15",
     "framer-motion": "^4.1.17",
