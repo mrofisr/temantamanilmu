@@ -1,10 +1,5 @@
-import { FaDev, FaGithub, FaLinkedinIn, FaMedium } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaMedium } from "react-icons/fa";
 const links = [
-  {
-    Icon: FaDev,
-    href: "https://dev.to/mrofisr",
-    arialabel: "Dev",
-  },
   {
     Icon: FaGithub,
     href: "https://github.com/mrofisr",
