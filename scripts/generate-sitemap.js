@@ -1,17 +1,17 @@
-const fs = require('fs')
-const globby = require('globby')
-const prettier = require('prettier')
-const config = require('../data/config')
+const fs = require("fs");
+const globby = require("globby");
+const prettier = require("prettier");
+const config = require("../data/config");
 
-;(async () => {
-  const prettierConfig = await prettier.resolveConfig('./.prettierrc.js')
+(async () => {
+  const prettierConfig = await prettier.resolveConfig("./.prettierrc.js");
   const pages = await globby([
-    'pages/*.js',
-    'posts/**/*.mdx',
-    'posts/**/*.md',
-    '!pages/_*.js',
-    '!pages/api',
-  ])
+    "pages/*.js",
+    "posts/**/*.mdx",
+    "posts/**/*.md",
+    "!pages/_*.js",
+    "!pages/api",
+  ]);
 
   const sitemap = `
         <?xml version="1.0" encoding="UTF-8"?>
@@ -19,16 +19,19 @@ const config = require('../data/config')
             ${pages
               .map((page) => {
                 const path = page
-                  .replace('pages/', '/')
-                  .replace('posts/', '/blog/')
-                  .replace('public/', '/')
-                  .replace('.js', '')
-                  .replace('.mdx', '')
-                  .replace('.md', '')
-                  .replace('/feed.xml', '')
-                const route = path === '/index' ? '' : path
-                if (page === `pages/404.js` || page === `pages/blog/[...slug].js`) {
-                  return
+                  .replace("pages/", "/")
+                  .replace("posts/", "/blog/")
+                  .replace("public/", "/")
+                  .replace(".js", "")
+                  .replace(".mdx", "")
+                  .replace(".md", "")
+                  .replace("/feed.xml", "");
+                const route = path === "/index" ? "" : path;
+                if (
+                  page === `pages/404.js` ||
+                  page === `pages/blog/[...slug].js`
+                ) {
+                  return;
                 }
                 return `
                         <url>
@@ -37,17 +40,17 @@ const config = require('../data/config')
                             <changefreq>monthly</changefreq>
                             <priority>1.0</priority>
                         </url>
-                    `
+                    `;
               })
-              .join('')}
+              .join("")}
         </urlset>
-    `
+    `;
 
   const formatted = prettier.format(sitemap, {
     ...prettierConfig,
-    parser: 'html',
-  })
+    parser: "html",
+  });
 
   // eslint-disable-next-line no-sync
-  fs.writeFileSync('public/sitemap.xml', formatted)
-})()
+  fs.writeFileSync("public/sitemap.xml", formatted);
+})();
