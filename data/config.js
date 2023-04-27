@@ -21,7 +21,7 @@ const config = {
       header: "Tags 🏷️ - @mrofisr",
       title: "Tags 🏷️",
       subtitle: "A spesific categories to make your search easier",
-    }
+    },
   },
 };
 

@@ -1,0 +1,32 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>My Personal Blog</title>
+      <link>https://mrofisr.dev/blog</link>
+      <description>A simple personal blog made with hear and hope</description>
+      <language>id-ID</language>
+      <managingEditor>(Abdur Rofi - @mrofisr)</managingEditor>
+      <webMaster>(Abdur Rofi - @mrofisr)</webMaster>
+      <lastBuildDate>Invalid Date</lastBuildDate>
+      <atom:link href="https://mrofisr.dev/tags/menulis/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://mrofisr.dev/blog/for-myself</guid>
+    <title>Nulis buat diri sendiri</title>
+    <link>https://mrofisr.dev/blog/for-myself</link>
+    <description>Semua yang saya tulis itu buat saya sendiri, tapi jika ada orang yang bisa mengambil manfaat itu lebih baik.</description>
+    <pubDate>Tue, 04 Apr 2023 17:00:00 GMT</pubDate>
+    <author>(Abdur Rofi - @mrofisr)</author>
+  </item>
+
+  <item>
+    <guid>https://mrofisr.dev/blog/chatgpt</guid>
+    <title>Konten ini buatan chatGPT</title>
+    <link>https://mrofisr.dev/blog/chatgpt</link>
+    <description>Artikel ini menjelaskan pengalaman penulis menggunakan chatGPT dari OpenAI, termasuk manfaat yang diperoleh dari penggunaan chatGPT dalam menjalankan pekerjaan secara efisien dan efektif. Artikel ini juga menyoroti kemampuan chatGPT dalam menangani banyak pertanyaan sekaligus dan kemudahan dalam mengakses informasi terbaru. Dan 100% dibuat oleh chatGPT by openAI.</description>
+    <pubDate>Invalid Date</pubDate>
+    <author>(Abdur Rofi - @mrofisr)</author>
+  </item>
+
+    </channel>
+  </rss>

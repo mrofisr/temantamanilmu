@@ -2,6 +2,7 @@ import Layout from "@/components/Layout";
 import Title from "@/components/Title";
 import ListLayout from "@/components/ListLayout";
 import { getAllPublished } from "@/lib/notion";
+import config from "@/data/config";
 
 export async function getStaticPaths() {
   const POSTS_PER_PAGE = 5;
@@ -41,14 +42,18 @@ export async function getStaticProps(context) {
     },
   };
 }
-const title = "Blog ✍️";
-const subtitle =
-  "I share anything that may help others, technologies I'm using and cool things I've made.";
+
 export default function PostPage({ posts, initialDisplayPosts, pagination }) {
   return (
     <>
-      <Layout title="Blog - @mrofisr" description={`${title} - ${subtitle}`}>
-        <Title title={title} subtitle={subtitle} />
+      <Layout
+        title={config.page.blog.header}
+        description={`${config.page.blog.title} - ${config.page.blog.title}`}
+      >
+        <Title
+          title={config.page.blog.title}
+          subtitle={config.page.blog.subtitle}
+        />
         <ListLayout
           posts={posts}
           initialDisplayPosts={initialDisplayPosts}

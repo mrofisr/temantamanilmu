@@ -1,0 +1,23 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>My Personal Blog</title>
+      <link>https://mrofisr.dev/blog</link>
+      <description>A simple personal blog made with hear and hope</description>
+      <language>id-ID</language>
+      <managingEditor>(Abdur Rofi - @mrofisr)</managingEditor>
+      <webMaster>(Abdur Rofi - @mrofisr)</webMaster>
+      <lastBuildDate>Invalid Date</lastBuildDate>
+      <atom:link href="https://mrofisr.dev/tags/konsisten/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://mrofisr.dev/blog/belajar-konsisten</guid>
+    <title>Belajar Konsisten</title>
+    <link>https://mrofisr.dev/blog/belajar-konsisten</link>
+    <description>Kosistensi bukan hal yang mudah, konsistensi itu perlu dilatih setiap saat.</description>
+    <pubDate>Sat, 25 Mar 2023 17:00:00 GMT</pubDate>
+    <author>(Abdur Rofi - @mrofisr)</author>
+  </item>
+
+    </channel>
+  </rss>
