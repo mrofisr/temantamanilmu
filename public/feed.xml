@@ -1,0 +1,95 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>My Personal Blog</title>
+      <link>https://mrofisr.dev/blog</link>
+      <description>A simple personal blog made with hear and hope</description>
+      <language>id-ID</language>
+      <managingEditor>(Abdur Rofi - @mrofisr)</managingEditor>
+      <webMaster>(Abdur Rofi - @mrofisr)</webMaster>
+      <lastBuildDate>Invalid Date</lastBuildDate>
+      <atom:link href="https://mrofisr.dev/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://mrofisr.dev/blog/rukun</guid>
+    <title>Rukun</title>
+    <link>https://mrofisr.dev/blog/rukun</link>
+    <description>Pada awalnya semua manusia hidup dengan rukun, akan tetapi karena hal negatif lah yang membuat kita bertengkar.</description>
+    <pubDate>Tue, 25 Apr 2023 17:00:00 GMT</pubDate>
+    <author>(Abdur Rofi - @mrofisr)</author>
+  </item>
+
+  <item>
+    <guid>https://mrofisr.dev/blog/for-myself</guid>
+    <title>Nulis buat diri sendiri</title>
+    <link>https://mrofisr.dev/blog/for-myself</link>
+    <description>Semua yang saya tulis itu buat saya sendiri, tapi jika ada orang yang bisa mengambil manfaat itu lebih baik.</description>
+    <pubDate>Tue, 04 Apr 2023 17:00:00 GMT</pubDate>
+    <author>(Abdur Rofi - @mrofisr)</author>
+  </item>
+
+  <item>
+    <guid>https://mrofisr.dev/blog/berpuasa-tapi-tetap-makan</guid>
+    <title>Berpuasa, tapi tetap makan</title>
+    <link>https://mrofisr.dev/blog/berpuasa-tapi-tetap-makan</link>
+    <description>Walaupun kita berpuasa, secara tidak sadar kita tetap memakan sesuatu yaitu memakan bangkai saudara kita sendiri yaitu melalui ghibah yang masih kita lakukan pada saat kita berpuasa.</description>
+    <pubDate>Thu, 30 Mar 2023 17:00:00 GMT</pubDate>
+    <author>(Abdur Rofi - @mrofisr)</author>
+  </item>
+
+  <item>
+    <guid>https://mrofisr.dev/blog/belajar-konsisten</guid>
+    <title>Belajar Konsisten</title>
+    <link>https://mrofisr.dev/blog/belajar-konsisten</link>
+    <description>Kosistensi bukan hal yang mudah, konsistensi itu perlu dilatih setiap saat.</description>
+    <pubDate>Sat, 25 Mar 2023 17:00:00 GMT</pubDate>
+    <author>(Abdur Rofi - @mrofisr)</author>
+  </item>
+
+  <item>
+    <guid>https://mrofisr.dev/blog/nggak-akan-sempurna</guid>
+    <title>Nggak Akan Pernah Sempurna</title>
+    <link>https://mrofisr.dev/blog/nggak-akan-sempurna</link>
+    <description>Mau gimanapun caranya, mau sekuat apapun usahanya, kita semua punya keterbatasan dan nggak akan pernah sempurna.</description>
+    <pubDate>Mon, 23 Jan 2023 17:00:00 GMT</pubDate>
+    <author>(Abdur Rofi - @mrofisr)</author>
+  </item>
+
+  <item>
+    <guid>https://mrofisr.dev/blog/chatgpt</guid>
+    <title>Konten ini buatan chatGPT</title>
+    <link>https://mrofisr.dev/blog/chatgpt</link>
+    <description>Artikel ini menjelaskan pengalaman penulis menggunakan chatGPT dari OpenAI, termasuk manfaat yang diperoleh dari penggunaan chatGPT dalam menjalankan pekerjaan secara efisien dan efektif. Artikel ini juga menyoroti kemampuan chatGPT dalam menangani banyak pertanyaan sekaligus dan kemudahan dalam mengakses informasi terbaru. Dan 100% dibuat oleh chatGPT by openAI.</description>
+    <pubDate>Invalid Date</pubDate>
+    <author>(Abdur Rofi - @mrofisr)</author>
+  </item>
+
+  <item>
+    <guid>https://mrofisr.dev/blog/diri-sendiri</guid>
+    <title>Diri sendiri dulu, baru orang lain</title>
+    <link>https://mrofisr.dev/blog/diri-sendiri</link>
+    <description>Kadang kita terlalu sibuk mencari kesalahan orang lain, sampai lupa akan cela dan kesalahan diri sendiri.</description>
+    <pubDate>Sat, 13 Aug 2022 17:00:00 GMT</pubDate>
+    <author>(Abdur Rofi - @mrofisr)</author>
+  </item>
+
+  <item>
+    <guid>https://mrofisr.dev/blog/belajar-bersabar</guid>
+    <title>Belajar bersabar</title>
+    <link>https://mrofisr.dev/blog/belajar-bersabar</link>
+    <description>Kehadiran mereka itulah yang mengajarkan kita bagaimana cara memaafkan dan juga bersabar, yang mungkin nggak kita dapetin dari orang lain.</description>
+    <pubDate>Tue, 28 Jun 2022 17:00:00 GMT</pubDate>
+    <author>(Abdur Rofi - @mrofisr)</author>
+  </item>
+
+  <item>
+    <guid>https://mrofisr.dev/blog/sampai-kapan</guid>
+    <title>Sampai kapan?</title>
+    <link>https://mrofisr.dev/blog/sampai-kapan</link>
+    <description>Ingat, hidup hanya di dunia hanya sementara, persiapkanlah bekal untuk pulang.</description>
+    <pubDate>Tue, 07 Jun 2022 17:00:00 GMT</pubDate>
+    <author>(Abdur Rofi - @mrofisr)</author>
+  </item>
+
+    </channel>
+  </rss>

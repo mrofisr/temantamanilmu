@@ -1,27 +1,29 @@
 import Layout from "@/components/Layout";
 import Title from "@/components/Title";
-import { getAllFilesFrontMatter } from "@/lib/mdx";
-import formatDate from "@/lib/utils/formatDate";
 import Link from "next/dist/client/link";
 import Tag from "@/components/Tag";
 import config from "@/data/config";
-
-const MAX_DISPLAY = 5;
+import { getAllPublished } from "@/lib/notion";
 
 export async function getStaticProps() {
-  const posts = await getAllFilesFrontMatter("posts");
-
-  return { props: { posts } };
+  const notion = await getAllPublished()
+  return {
+    props: {
+      notion
+    },
+    revalidate: 60
+  };
 }
 
-export default function index({ posts }) {
+export default function index({ notion }) {
+  const MAX_DISPLAY = 5;
   return (
     <Layout title={config.page.index.header} description={`${config.page.index.title} - ${config.page.index.subtitle}`}>
       <Title title={config.page.index.title} subtitle={config.page.index.subtitle} />
       <ul className="divide-y divide-gray-400 md:divide-y-1 dark:divide-gray-700">
-        {!posts.length && "No posts found."}
-        {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
-          const { slug, date, title, desc, tags } = frontMatter;
+        {!notion.length && "No posts found."}
+        {notion.slice(0, MAX_DISPLAY).map((frontMatter) => {
+          const { slug, date, title, description, tags } = frontMatter;
           return (
             <li key={slug} className="py-4">
               <article>
@@ -29,7 +31,7 @@ export default function index({ posts }) {
                   <dl>
                     <dt className="sr-only">Published on</dt>
                     <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
-                      <time dateTime={date}>{formatDate(date)}</time>
+                      <time dateTime={date}>{date}</time>
                     </dd>
                   </dl>
                   <div className="space-y-5 xl:col-span-3">
@@ -45,7 +47,7 @@ export default function index({ posts }) {
                         </div>
                       </div>
                       <div className="prose text-gray-500 max-w-none dark:text-gray-400">
-                        {desc}
+                        {description}
                       </div>
                     </div>
                     <div className="text-base font-medium leading-6 dark:text-white">
@@ -63,7 +65,7 @@ export default function index({ posts }) {
           );
         })}
       </ul>
-      {posts.length > MAX_DISPLAY && (
+      {notion.length > MAX_DISPLAY && (
         <div className="flex justify-end text-base font-medium leading-6 dark:text-white">
           <Link href="/blog" aria-label="all posts">
             All Posts &rarr;

@@ -1,12 +1,13 @@
 import Layout from "@/components/Layout";
 import Title from "@/components/Title";
-import { getAllFilesFrontMatter } from "@/lib/mdx";
 import ListLayout from "@/components/ListLayout";
-import { POSTS_PER_PAGE } from "../../blog";
+import { getAllPublished } from "@/lib/notion";
 
 export async function getStaticPaths() {
-  const totalPosts = await getAllFilesFrontMatter("posts");
+  const POSTS_PER_PAGE = 5;
+  const totalPosts = await getAllPublished();
   const totalPages = Math.ceil(totalPosts.length / POSTS_PER_PAGE);
+  console.log(totalPages)
   const paths = Array.from({ length: totalPages }, (_, i) => ({
     params: { page: (i + 1).toString() },
   }));
@@ -18,10 +19,11 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps(context) {
+  const POSTS_PER_PAGE = 5;
   const {
     params: { page },
   } = context;
-  const posts = await getAllFilesFrontMatter("posts");
+  const posts = await getAllPublished();
   const pageNumber = parseInt(page);
   const initialDisplayPosts = posts.slice(
     POSTS_PER_PAGE * (pageNumber - 1),

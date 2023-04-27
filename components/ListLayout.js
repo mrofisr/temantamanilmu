@@ -12,7 +12,7 @@ export default function ListLayout({
   const [searchValue, setSearchValue] = useState("");
   const filteredBlogPosts = posts.filter((frontMatter) => {
     const searchContent =
-      frontMatter.title + frontMatter.desc + frontMatter.tags.join(" ");
+      frontMatter.title + frontMatter.description + frontMatter.tags.join(" ");
     return searchContent.toLowerCase().includes(searchValue.toLowerCase());
   });
 
@@ -51,7 +51,7 @@ export default function ListLayout({
         <ul className="divide-y divide-gray-400 md:divide-y-1 dark:divide-gray-700">
           {!filteredBlogPosts.length && "No posts found."}
           {displayPosts.map((frontMatter) => {
-            const { slug, date, title, desc, tags } = frontMatter;
+            const { slug, date, title, description, tags } = frontMatter;
             return (
               <li key={slug} className="py-4">
                 <article className="space-y-2 xl:grid xl:grid-cols-4 xl:space-y-0 xl:items-baseline">
@@ -73,7 +73,7 @@ export default function ListLayout({
                       </div>
                     </div>
                     <div className="prose text-gray-500 max-w-none dark:text-gray-400">
-                      {desc}
+                      {description}
                     </div>
                     <div className="text-base text-primary-500 font-medium leading-6 dark:text-white">
                       <Link

@@ -1,12 +1,12 @@
 import Layout from "@/components/Layout";
 import Title from "@/components/Title";
-import { getAllFilesFrontMatter } from '@/lib/mdx'
 import ListLayout from "@/components/ListLayout";
 import config from "@/data/config";
-export const POSTS_PER_PAGE = 5;
+import { getAllPublished } from "@/lib/notion";
 
 export async function getStaticProps() {
-  const posts = await getAllFilesFrontMatter("posts");
+  const POSTS_PER_PAGE = 5;
+  const posts = await getAllPublished();
   const initialDisplayPosts = posts.slice(0, POSTS_PER_PAGE);
   const pagination = {
     currentPage: 1,
@@ -18,7 +18,7 @@ export async function getStaticProps() {
 
 export default function blog({ posts, initialDisplayPosts, pagination }) {
   return (
-    <Layout title={config.page.blog.header} description={`${config.page.blog.title} - ${config.page.blog.subtitle}`}>
+    <Layout title={config.page.blog.header} description={`${config.page.blog.title} - ${config.page.blog.title}`}>
       <Title title={config.page.blog.title} subtitle={config.page.blog.subtitle} />
       <ListLayout
         posts={posts}

@@ -1,8 +1,7 @@
 import Layout from "@/components/Layout";
 import ListLayout from "@/components/ListLayout";
 import generateRss from "@/lib/generate-rss";
-import { getAllFilesFrontMatter } from "@/lib/mdx";
-import { getAllTags } from "@/lib/tags";
+import { getAllPublished, getAllTags } from "@/lib/notion";
 import kebabCase from "@/lib/utils/kebabCase";
 import fs from "fs";
 import path from "path";
@@ -10,7 +9,7 @@ import path from "path";
 const root = process.cwd();
 
 export async function getStaticPaths() {
-  const tags = await getAllTags("posts");
+  const tags = await getAllTags();
 
   return {
     paths: Object.keys(tags).map((tag) => ({
@@ -23,7 +22,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const allPosts = await getAllFilesFrontMatter("posts");
+  const allPosts = await getAllPublished();
   const filteredPosts = allPosts.filter(
     (post) =>
       post.draft !== true &&

@@ -2,11 +2,10 @@ import fs from "fs";
 import { MDXLayoutRenderer } from "@/components/MDXComponents";
 import {
   formatSlug,
-  getAllFilesFrontMatter,
-  getFileBySlug,
   getFiles,
 } from "@/lib/mdx";
 import generateRss from "@/lib/generate-rss";
+import { getAllPublished, getSingleBlogPostBySlug } from "@/lib/notion";
 
 export async function getStaticPaths() {
   const posts = getFiles("posts");
@@ -21,13 +20,13 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const allPosts = await getAllFilesFrontMatter("posts");
+  const allPosts = await getAllPublished();
   const postIndex = allPosts.findIndex(
-    (post) => formatSlug(post.slug) === params.slug.join("/")
+    (post) => formatSlug(post.slug) === params.slug
   );
   const prev = allPosts[postIndex + 1] || null;
   const next = allPosts[postIndex - 1] || null;
-  const post = await getFileBySlug("posts", params.slug.join("/"));
+  const post = await getSingleBlogPostBySlug(params.slug);
   // rss
   const rss = generateRss(allPosts);
   fs.writeFileSync("./public/feed.xml", rss);
