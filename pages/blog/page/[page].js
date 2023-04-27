@@ -7,7 +7,6 @@ export async function getStaticPaths() {
   const POSTS_PER_PAGE = 5;
   const totalPosts = await getAllPublished();
   const totalPages = Math.ceil(totalPosts.length / POSTS_PER_PAGE);
-  console.log(totalPages)
   const paths = Array.from({ length: totalPages }, (_, i) => ({
     params: { page: (i + 1).toString() },
   }));

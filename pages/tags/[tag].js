@@ -1,16 +1,15 @@
+import fs from "fs";
+import path from "path";
 import Layout from "@/components/Layout";
 import ListLayout from "@/components/ListLayout";
 import generateRss from "@/lib/generate-rss";
 import { getAllPublished, getAllTags } from "@/lib/notion";
 import kebabCase from "@/lib/utils/kebabCase";
-import fs from "fs";
-import path from "path";
 
 const root = process.cwd();
 
 export async function getStaticPaths() {
   const tags = await getAllTags();
-
   return {
     paths: Object.keys(tags).map((tag) => ({
       params: {

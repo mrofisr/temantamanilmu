@@ -2756,6 +2756,13 @@ normalize-url@^6.0.1:
   resolved "https://registry.npmjs.org/normalize-url/-/normalize-url-6.1.0.tgz"
   integrity sha512-DlL+XwOy3NxAQ8xuC0okPgK46iuVNAK01YN7RueYBqqFeGsBjV9XmCAzAdgt+667bCl5kPh9EqKKDwnaPG1I7A==
 
+notion-to-md@^2.5.6:
+  version "2.5.6"
+  resolved "https://registry.yarnpkg.com/notion-to-md/-/notion-to-md-2.5.6.tgz#6de56fbe0c389dfb6ee8d288206f646912d1af1f"
+  integrity sha512-jgLZY1MaUuYSoyoDxKs43WXnbhhSdT9c3auhfex2ZT151yut4v8aT04G8b3o98qnbRO4GQ08x5Y2zX8gEfFAiw==
+  dependencies:
+    markdown-table "^2.0.0"
+
 object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz"

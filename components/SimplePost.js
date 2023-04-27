@@ -3,8 +3,7 @@ import formatDate from "@/lib/utils/formatDate";
 import Layout from "./Layout";
 
 export default function SimplePost({ frontMatter, next, prev, children }) {
-  const { date, title, description, image } = frontMatter;
-
+  const { date, title, description, cover } = frontMatter;
   return (
     <Layout title={`${title} - @mrofisr`} description={description}>
       <article>
