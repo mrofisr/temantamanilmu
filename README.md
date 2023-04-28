@@ -27,14 +27,3 @@ yarn dev
 ## If you want deploy on Vercel
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/mrofisr/nextjs-tailwind-simple-blog)
-
-# Post Format
-
-```markdown
----
-title: "Sample .md file"
-date: "2016-03-08"
-tags: ["markdown", "code", "features"]
-desc: "Example of a markdown file with code blocks and syntax highlighting"
----
-```

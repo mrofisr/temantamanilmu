@@ -41,7 +41,7 @@ export default function Layout(props) {
             { url: `${cover}` },
             { url: `${cover}` },
           ],
-          siteName: "SiteName",
+          siteName: "Blog - " + config.author,
         }}
       />
       <Navbar />
