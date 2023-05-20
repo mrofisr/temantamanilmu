@@ -41,14 +41,13 @@ export async function getStaticProps({ params }) {
 
 export default function Blog({ post, prev, next }) {
   const { metadata, markdown } = post;
-  const { slug, date, title, description, cover } = metadata;
+  const { slug, date, title, description } = metadata;
   return (
     <>
       <Layout
         title={`${title} - @mrofisr`}
         description={description}
         slug={slug}
-        cover={cover}
       >
         <article>
           <div>

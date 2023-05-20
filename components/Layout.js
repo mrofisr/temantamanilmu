@@ -6,7 +6,6 @@ import config from "@/data/config";
 export default function Layout(props) {
   const title = props.title;
   const description = props.description;
-  const cover = props.cover;
   const slug = props.slug;
   const variants = {
     hidden: { opacity: 0, x: -200, y: 0 },
@@ -22,25 +21,6 @@ export default function Layout(props) {
           url: `${config.siteUrl + "/blog/" + slug}`,
           title: title,
           description: description,
-          images: [
-            {
-              url: `${cover}`,
-              width: 800,
-              height: 600,
-              alt: `${title + " - " + description}"}`,
-              type: "image/jpeg",
-            },
-            {
-              url: `${cover}`,
-              width: 900,
-              height: 800,
-              alt: `${title + " - " + description}"}`,
-
-              type: "image/jpeg",
-            },
-            { url: `${cover}` },
-            { url: `${cover}` },
-          ],
           siteName: "Blog - " + config.author,
         }}
       />
