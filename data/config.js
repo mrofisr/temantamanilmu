@@ -1,6 +1,6 @@
 const config = {
   title: "My Personal Blog",
-  author: "Abdur Rofi - @mrofisr",
+  author: "Muhammad Abdur Rofi Maulidin - @mrofisr",
   headerTitle: "My Blog",
   description: "A simple personal blog made with hear and hope",
   language: "id-ID",
@@ -9,7 +9,7 @@ const config = {
   page: {
     index: {
       header: "Home 🏠 - @mrofisr",
-      title: "Hi, I'm Rofi 👋",
+      title: "Hi, I'm Muhammad Abdur Rofi Maulidin 👋",
       subtitle: "(Be) a human being",
     },
     blog: {
