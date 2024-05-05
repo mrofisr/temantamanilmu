@@ -57,25 +57,23 @@ export default function Navbar() {
     text-black dark:text-white"
     >
       <Link href="/">
-        <a>
-          <img
-            src="/static/images/lighthouse.png"
-            alt="logo"
-            className="h-8 sm:h-10"
-          />
-        </a>
+        <img
+          src="/static/images/lighthouse.png"
+          alt="logo"
+          className="h-8 sm:h-12"
+        />
       </Link>
       <div className="flex flex-row items-center">
         <nav>
           {links.map(({ name, href, hideOnMobile = false }) => (
             <Link key={name} href={href}>
-              <a
+              <p
                 className={`mr-6 sm:mr-8 ${
                   hideOnMobile ? "hidden" : "inline"
                 } sm:inline`}
               >
                 {name}
-              </a>
+              </p>
             </Link>
           ))}
         </nav>

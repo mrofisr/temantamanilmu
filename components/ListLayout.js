@@ -68,7 +68,7 @@ export default function ListLayout({
                       </h3>
                       <div className="flex flex-wrap mt-1">
                         {tags.map((tag) => (
-                          <Tag key={tag} text={tag}/>
+                          <Tag key={tag} text={tag} />
                         ))}
                       </div>
                     </div>
@@ -80,7 +80,7 @@ export default function ListLayout({
                         href={`/blog/${slug}`}
                         aria-label={`Read "${title}"`}
                       >
-                        Read more &rarr;
+                        Read more
                       </Link>
                     </div>
                   </div>

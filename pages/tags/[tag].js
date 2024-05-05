@@ -40,7 +40,10 @@ export async function getStaticProps({ params }) {
 export default function Tags({ posts, tag }) {
   const title = tag[0].toUpperCase() + tag.split(" ").join("-").slice(1);
   return (
-    <Layout title={`${tag} - @mrofisr`} description={`${title} - @mrofisr`}>
+    <Layout
+      title={`${tag} - @temantamanilmu`}
+      description={`${title} - @temantamanilmu`}
+    >
       <ListLayout posts={posts} title={title} />
     </Layout>
   );

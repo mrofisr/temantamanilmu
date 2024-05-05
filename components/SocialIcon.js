@@ -1,19 +1,9 @@
-import { FaGithub, FaLinkedinIn, FaMedium } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 const links = [
   {
-    Icon: FaGithub,
-    href: "https://github.com/mrofisr",
-    arialabel: "Github",
-  },
-  {
-    Icon: FaLinkedinIn,
-    href: "https://www.linkedin.com/in/mrofisr",
-    arialabel: "LinkedIn",
-  },
-  {
-    Icon: FaMedium,
-    href: "https://medium.com/@mrofisr",
-    arialabel: "Medium",
+    Icon: FaInstagram,
+    href: "https://www.instagram.com/temantamanilmu",
+    arialabel: "Instagram",
   },
 ];
 

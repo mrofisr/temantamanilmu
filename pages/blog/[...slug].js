@@ -45,21 +45,21 @@ export default function Blog({ post, prev, next }) {
   return (
     <>
       <Layout
-        title={`${title} - @mrofisr`}
+        title={`${title} - @temantamanilmu`}
         description={description}
         slug={slug}
       >
-        <article>
+        <article className="min-h-screen py-12">
           <div>
             <header>
               <div className="space-y-1 text-center border-b border-gray-200 dark:border-gray-700">
-                <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
+                <h1 className="text-3xl font-semibold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
                   {title}
                 </h1>
                 <dl>
                   <div>
                     <dt className="sr-only">Published on</dt>
-                    <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
+                    <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400 my-2">
                       <time dateTime={date}>{date}</time>
                     </dd>
                   </div>
@@ -101,7 +101,7 @@ export default function Blog({ post, prev, next }) {
                         href={`/blog/${prev.slug}`}
                         className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
                       >
-                        <a>&larr; {prev.title}</a>
+                        <p>&larr; {prev.title}</p>
                       </Link>
                     </div>
                   )}
@@ -111,7 +111,7 @@ export default function Blog({ post, prev, next }) {
                         href={`/blog/${next.slug}`}
                         className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
                       >
-                        <a> {next.title} &rarr;</a>
+                        <p> {next.title} &rarr;</p>
                       </Link>
                     </div>
                   )}
