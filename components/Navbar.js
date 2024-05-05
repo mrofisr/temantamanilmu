@@ -57,9 +57,9 @@ export default function Navbar() {
     text-black dark:text-white"
     >
       <Link href="/">
-        <p className="font-extrabold text-2xl sm:text-3xl cursor-pointer drop-shadow-md">
+        <a className="font-extrabold cursor-pointer drop-shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
           Teman Taman Ilmu
-        </p>
+        </a>
       </Link>
       <div className="flex flex-row items-center">
         <nav>
