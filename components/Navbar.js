@@ -57,8 +57,12 @@ export default function Navbar() {
     text-black dark:text-white"
     >
       <Link href="/">
-        <a className="font-extrabold cursor-pointer drop-shadow-[5px_5px_0px_0px_rgba(109,40,217)]">
-          Teman Taman Ilmu
+        <a>
+          <img
+            src="/static/images/lighthouse.png"
+            alt="logo"
+            className="h-8 sm:h-10"
+          />
         </a>
       </Link>
       <div className="flex flex-row items-center">
