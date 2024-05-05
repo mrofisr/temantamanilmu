@@ -33,7 +33,7 @@ export default function Layout(props) {
         variants={variants}
         transition={{ type: "linear" }}
         className="
-            flex flex-col w-full pt-10
+            flex flex-col w-full pt-10 min-h-screen 
             px-8 sm:px-16 md:px-36 lg:px-52 xl:px-80 2xl:px-96
         "
       >

@@ -1,28 +1,32 @@
 const config = {
-  title: "My Personal Blog",
+  title: "Teman Taman Ilmu - @temantamanilmu",
   author: "Muhammad Abdur Rofi Maulidin - @mrofisr",
-  headerTitle: "My Blog",
-  description: "A simple personal blog made with hear and hope",
+  headerTitle: "Teman Taman Ilmu - @temantamanilmu",
+  description: "Teman Kamu Dalam Menuntut Ilmu",
   language: "id-ID",
-  siteUrl: "https://mrofisr.dev",
+  siteUrl: "https://temantamanilmu.vercel.app",
   favIcon: "/static/images/favicon.png",
   page: {
     index: {
       header: "Home 🏠 - @mrofisr",
-      title: "Hi, I'm Muhammad Abdur Rofi Maulidin 👋",
-      subtitle: "(Be) a human being",
+      title: "Hi, Welcome to Teman Taman Ilmu",
+      subtitle: "A random handcrafted blog",
     },
     blog: {
-      header: "Blog ✍️ - @mrofisr",
+      header: "Blog ✍️ - @temantamanilmu",
       title: "Blog ✍️",
       subtitle: "A random collection of thoughts",
     },
     tags: {
-      header: "Tags 🏷️ - @mrofisr",
+      header: "Tags 🏷️ - @temantamanilmu",
       title: "Tags 🏷️",
       subtitle: "A spesific categories to make your search easier",
     },
   },
 };
 
-module.exports = config;
+{
+  /* Export Config */
+}
+export default config;
+
