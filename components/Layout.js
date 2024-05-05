@@ -2,6 +2,7 @@ import { NextSeo } from "next-seo";
 import Navbar from "@/components/Navbar";
 import { motion } from "framer-motion";
 import config from "@/data/config";
+import Footer from "./Footer";
 
 export default function Layout(props) {
   const title = props.title;
@@ -34,11 +35,11 @@ export default function Layout(props) {
         className="
             flex flex-col w-full pt-10
             px-8 sm:px-16 md:px-36 lg:px-52 xl:px-80 2xl:px-96
-            pt-24
         "
       >
         {props.children}
       </motion.main>
+      <Footer />
     </div>
   );
 }
