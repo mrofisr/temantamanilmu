@@ -5,10 +5,10 @@ const config = {
   description: "Teman Kamu Dalam Menuntut Ilmu",
   language: "id-ID",
   siteUrl: "https://temantamanilmu.vercel.app",
-  favIcon: "/static/images/favicon.png",
+  favIcon: "/static/images/lighthouse.png",
   page: {
     index: {
-      header: "Home 🏠 - @mrofisr",
+      header: "Home 🏠 - @temantamanilmu",
       title: "Hi, Welcome to Teman Taman Ilmu",
       subtitle: "A random handcrafted blog",
     },
@@ -29,4 +29,3 @@ const config = {
   /* Export Config */
 }
 export default config;
-

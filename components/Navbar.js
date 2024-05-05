@@ -57,7 +57,9 @@ export default function Navbar() {
     text-black dark:text-white"
     >
       <Link href="/">
-        <a className="font-extrabold">Abdur Rofi</a>
+        <p className="font-extrabold text-2xl sm:text-3xl cursor-pointer drop-shadow-md">
+          Teman Taman Ilmu
+        </p>
       </Link>
       <div className="flex flex-row items-center">
         <nav>
