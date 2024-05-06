@@ -7,7 +7,7 @@ const Footer = () => {
           <a
             href="/"
             rel="noopener noreferrer"
-            className="underline hover:text-gray-700 font-bold dark:text-gray-300 dark:hover:text-white"
+            className="hover:text-gray-700 font-bold dark:text-gray-300 dark:hover:text-white"
           >
             Teman Taman Ilmu
           </a>

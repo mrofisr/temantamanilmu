@@ -5,8 +5,13 @@ import Tag from "@/components/Tag";
 import config from "@/data/config";
 import { getAllPublished } from "@/lib/notion";
 
-export async function getStaticProps() {
+export async function getServersideProps() {
   const notion = await getAllPublished();
+  if (!notion) {
+    return {
+      notFound: true,
+    };
+  }
   return {
     props: {
       notion,
@@ -26,9 +31,9 @@ export default function index({ notion }) {
         title={config.page.index.title}
         subtitle={config.page.index.subtitle}
       />
-      <ul className="divide-y divide-gray-400 md:divide-y-1 dark:divide-gray-700">
-        {!notion.length && "No posts found."}
-        {notion.slice(0, MAX_DISPLAY).map((frontMatter) => {
+      <ul className="divide-y divide-gray-400 md:divide-y-1 dark:divide-white">
+        {!notion?.length && "No posts found."}
+        {notion?.slice(0, MAX_DISPLAY).map((frontMatter) => {
           const { slug, date, title, description, tags } = frontMatter;
           return (
             <li key={slug} className="py-4">
@@ -43,7 +48,7 @@ export default function index({ notion }) {
                   <div className="space-y-5 xl:col-span-3">
                     <div className="space-y-6">
                       <div>
-                        <h2 className="text-2xl hover:underline text-yellow-600 dark:text-yellow-400 font-bold leading-8 tracking-tight">
+                        <h2 className="text-2xl text-yellow-600 dark:text-yellow-400 font-bold leading-8 tracking-tight">
                           <Link href={`/blog/${slug}`}>{title}</Link>
                         </h2>
                         <div className="flex flex-wrap mt-1">
@@ -71,7 +76,7 @@ export default function index({ notion }) {
           );
         })}
       </ul>
-      {notion.length > MAX_DISPLAY && (
+      {notion?.length > MAX_DISPLAY && (
         <div className="flex justify-end text-base font-medium leading-6 dark:text-white">
           <Link href="/blog" aria-label="all posts">
             All Posts &rarr;
@@ -81,4 +86,3 @@ export default function index({ notion }) {
     </Layout>
   );
 }
-
