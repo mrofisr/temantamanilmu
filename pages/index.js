@@ -5,7 +5,7 @@ import Tag from "@/components/Tag";
 import config from "@/data/config";
 import { getAllPublished } from "@/lib/notion";
 
-export async function getServersideProps() {
+export async function getStaticProps() {
   const notion = await getAllPublished();
   if (!notion) {
     return {
