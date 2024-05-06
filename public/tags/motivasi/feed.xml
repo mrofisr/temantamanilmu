@@ -1,27 +1,43 @@
 
   <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-      <title>My Personal Blog</title>
-      <link>https://mrofisr.dev/blog</link>
-      <description>A simple personal blog made with hear and hope</description>
+      <title>Teman Taman Ilmu - @temantamanilmu</title>
+      <link>https://temantamanilmu.vercel.app/blog</link>
+      <description>Teman Kamu Dalam Menuntut Ilmu</description>
       <language>id-ID</language>
-      <lastBuildDate>Sat, 20 May 2023 17:26:46 GMT</lastBuildDate>
-      <atom:link href="https://mrofisr.dev/tags/motivasi/feed.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Mon, 06 May 2024 02:57:28 GMT</lastBuildDate>
+      <atom:link href="https://temantamanilmu.vercel.app/tags/motivasi/feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
-    <guid>https://mrofisr.dev/blog/for-myself</guid>
-    <title>Nulis buat diri sendiri</title>
-    <link>https://mrofisr.dev/blog/for-myself</link>
-    <description>Semua yang saya tulis itu buat saya sendiri, tapi jika ada orang yang bisa mengambil manfaat itu lebih baik.</description>
-    <pubDate>Sat, 20 May 2023 17:26:46 GMT</pubDate>
+    <guid>https://temantamanilmu.vercel.app/blog/sombong</guid>
+    <title>Sombong</title>
+    <link>https://temantamanilmu.vercel.app/blog/sombong</link>
+    <description>Dalam perjalanan hidup, rasa bangga atas pencapaian kita sering muncul. Namun, perasaan ini perlu seimbang dengan kerendahan hati dan kesadaran akan asal-usul kemampuan kita.</description>
+    <pubDate>Mon, 06 May 2024 02:57:28 GMT</pubDate>
   </item>
 
   <item>
-    <guid>https://mrofisr.dev/blog/belajar-konsisten</guid>
+    <guid>https://temantamanilmu.vercel.app/blog/impact-tech-community-to-increase-your-tech-skill</guid>
+    <title>Impact Tech Community To Increase Your Tech Skill</title>
+    <link>https://temantamanilmu.vercel.app/blog/impact-tech-community-to-increase-your-tech-skill</link>
+    <description>The tech industry has a vast community filled with people and abundant content-driven activities. Joining this community can provide numerous benefits and open up new opportunities.</description>
+    <pubDate>Mon, 06 May 2024 02:57:28 GMT</pubDate>
+  </item>
+
+  <item>
+    <guid>https://temantamanilmu.vercel.app/blog/for-myself</guid>
+    <title>Nulis buat diri sendiri</title>
+    <link>https://temantamanilmu.vercel.app/blog/for-myself</link>
+    <description>Semua yang saya tulis itu buat saya sendiri, tapi jika ada orang yang bisa mengambil manfaat itu lebih baik.</description>
+    <pubDate>Mon, 06 May 2024 02:57:28 GMT</pubDate>
+  </item>
+
+  <item>
+    <guid>https://temantamanilmu.vercel.app/blog/belajar-konsisten</guid>
     <title>Belajar Konsisten</title>
-    <link>https://mrofisr.dev/blog/belajar-konsisten</link>
+    <link>https://temantamanilmu.vercel.app/blog/belajar-konsisten</link>
     <description>Kosistensi bukan hal yang mudah, konsistensi itu perlu dilatih setiap saat.</description>
-    <pubDate>Sat, 20 May 2023 17:26:46 GMT</pubDate>
+    <pubDate>Mon, 06 May 2024 02:57:28 GMT</pubDate>
   </item>
 
     </channel>

@@ -5,6 +5,8 @@ import ListLayout from "@/components/ListLayout";
 import generateRss from "@/lib/generate-rss";
 import { getAllPublished, getAllTags } from "@/lib/notion";
 import kebabCase from "@/lib/utils/kebabCase";
+import Title from "@/components/Title";
+import config from "@/data/config";
 
 const root = process.cwd();
 
@@ -44,6 +46,10 @@ export default function Tags({ posts, tag }) {
       title={`${tag} - @temantamanilmu`}
       description={`${title} - @temantamanilmu`}
     >
+      <Title
+        title={config.page.tags.title}
+        subtitle={config.page.tags.subtitle}
+      />
       <ListLayout posts={posts} title={title} />
     </Layout>
   );

@@ -1,19 +1,19 @@
 
   <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-      <title>My Personal Blog</title>
-      <link>https://mrofisr.dev/blog</link>
-      <description>A simple personal blog made with hear and hope</description>
+      <title>Teman Taman Ilmu - @temantamanilmu</title>
+      <link>https://temantamanilmu.vercel.app/blog</link>
+      <description>Teman Kamu Dalam Menuntut Ilmu</description>
       <language>id-ID</language>
-      <lastBuildDate>Sat, 20 May 2023 17:26:47 GMT</lastBuildDate>
-      <atom:link href="https://mrofisr.dev/tags/konsisten/feed.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Mon, 06 May 2024 03:01:05 GMT</lastBuildDate>
+      <atom:link href="https://temantamanilmu.vercel.app/tags/konsisten/feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
-    <guid>https://mrofisr.dev/blog/belajar-konsisten</guid>
+    <guid>https://temantamanilmu.vercel.app/blog/belajar-konsisten</guid>
     <title>Belajar Konsisten</title>
-    <link>https://mrofisr.dev/blog/belajar-konsisten</link>
+    <link>https://temantamanilmu.vercel.app/blog/belajar-konsisten</link>
     <description>Kosistensi bukan hal yang mudah, konsistensi itu perlu dilatih setiap saat.</description>
-    <pubDate>Sat, 20 May 2023 17:26:47 GMT</pubDate>
+    <pubDate>Mon, 06 May 2024 03:01:05 GMT</pubDate>
   </item>
 
     </channel>
