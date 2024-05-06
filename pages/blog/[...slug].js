@@ -49,11 +49,11 @@ export default function Blog({ post, prev, next }) {
         description={description}
         slug={slug}
       >
-        <article className="min-h-screen py-12">
+        <article className="min-h-screen py-16">
           <div>
             <header>
               <div className="space-y-1 text-center border-b border-gray-200 dark:border-gray-700">
-                <h1 className="text-3xl font-semibold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
+                <h1 className="text-3xl font-semibold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14 capitalize">
                   {title}
                 </h1>
                 <dl>

@@ -62,7 +62,7 @@ export default function ListLayout({
                   </dl>
                   <div className="space-y-3 xl:col-span-3">
                     <div>
-                      <h3 className="text-2xl text-yellow-600 dark:text-yellow-400 font-bold leading-8 tracking-tight">
+                      <h3 className="text-2xl text-yellow-600 dark:text-yellow-400 font-bold leading-8 tracking-tight capitalize">
                         <Link href={`/blog/${slug}`}>{title}</Link>
                       </h3>
                       <div className="flex flex-wrap mt-1">

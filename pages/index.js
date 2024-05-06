@@ -48,7 +48,7 @@ export default function index({ notion }) {
                   <div className="space-y-5 xl:col-span-3">
                     <div className="space-y-6">
                       <div>
-                        <h2 className="text-2xl text-yellow-600 dark:text-yellow-400 font-bold leading-8 tracking-tight">
+                        <h2 className="text-2xl text-yellow-600 dark:text-yellow-400 font-bold leading-8 tracking-tight capitalize">
                           <Link href={`/blog/${slug}`}>{title}</Link>
                         </h2>
                         <div className="flex flex-wrap mt-1">

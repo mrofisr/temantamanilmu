@@ -68,7 +68,7 @@ export default function Navbar() {
           {links.map(({ name, href, hideOnMobile = false }) => (
             <Link key={name} href={href}>
               <p
-                className={`mr-6 sm:mr-8 ${
+                className={`mr-6 sm:mr-8 hover:bg-yellow-400 px-2 py-1 rounded-md ${
                   hideOnMobile ? "hidden" : "inline"
                 } sm:inline`}
               >
