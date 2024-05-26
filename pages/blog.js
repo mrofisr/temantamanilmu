@@ -4,7 +4,7 @@ import ListLayout from "@/components/ListLayout";
 import config from "@/data/config";
 import { getAllPublished } from "@/lib/notion";
 
-export async function getStaticProps() {
+export const getServerSideProps = async () => {
   const POSTS_PER_PAGE = 5;
   const posts = await getAllPublished();
   const initialDisplayPosts = posts.slice(0, POSTS_PER_PAGE);
@@ -14,12 +14,18 @@ export async function getStaticProps() {
   };
 
   return { props: { initialDisplayPosts, posts, pagination } };
-}
+};
 
 export default function blog({ posts, initialDisplayPosts, pagination }) {
   return (
-    <Layout title={config.page.blog.header} description={`${config.page.blog.title} - ${config.page.blog.title}`}>
-      <Title title={config.page.blog.title} subtitle={config.page.blog.subtitle} />
+    <Layout
+      title={config.page.blog.header}
+      description={`${config.page.blog.title} - ${config.page.blog.title}`}
+    >
+      <Title
+        title={config.page.blog.title}
+        subtitle={config.page.blog.subtitle}
+      />
       <ListLayout
         posts={posts}
         initialDisplayPosts={initialDisplayPosts}

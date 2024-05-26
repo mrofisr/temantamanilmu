@@ -9,7 +9,7 @@ const config = {
   page: {
     index: {
       header: "Home 🏠 - @temantamanilmu",
-      title: "Hi, Welcome to Teman Taman Ilmu",
+      title: "Teman Taman Ilmu",
       subtitle: "A random handcrafted blog",
     },
     blog: {
@@ -25,7 +25,4 @@ const config = {
   },
 };
 
-{
-  /* Export Config */
-}
 export default config;

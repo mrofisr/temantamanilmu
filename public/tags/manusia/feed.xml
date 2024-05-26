@@ -1,59 +1,67 @@
 
   <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-      <title>My Personal Blog</title>
-      <link>https://mrofisr.dev/blog</link>
-      <description>A simple personal blog made with hear and hope</description>
+      <title>Teman Taman Ilmu - @temantamanilmu</title>
+      <link>https://temantamanilmu.vercel.app/blog</link>
+      <description>Teman Kamu Dalam Menuntut Ilmu</description>
       <language>id-ID</language>
-      <lastBuildDate>Sat, 20 May 2023 17:26:46 GMT</lastBuildDate>
-      <atom:link href="https://mrofisr.dev/tags/manusia/feed.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sun, 26 May 2024 09:37:57 GMT</lastBuildDate>
+      <atom:link href="https://temantamanilmu.vercel.app/tags/manusia/feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
-    <guid>https://mrofisr.dev/blog/pola-pikir-pemain-rubik</guid>
+    <guid>https://temantamanilmu.vercel.app/blog/sombong</guid>
+    <title>Sombong</title>
+    <link>https://temantamanilmu.vercel.app/blog/sombong</link>
+    <description>Dalam perjalanan hidup, rasa bangga atas pencapaian kita sering muncul. Namun, perasaan ini perlu seimbang dengan kerendahan hati dan kesadaran akan asal-usul kemampuan kita.</description>
+    <pubDate>Sun, 26 May 2024 09:37:57 GMT</pubDate>
+  </item>
+
+  <item>
+    <guid>https://temantamanilmu.vercel.app/blog/jangan-langsung-marah</guid>
+    <title>Jangan Langsung Marah</title>
+    <link>https://temantamanilmu.vercel.app/blog/jangan-langsung-marah</link>
+    <description>Jangan langsung marah, mungkin kita hanya belum tau saja manfaat dari hal terjadi. Jangan terlalu diambil pusing, cuman permasalahan dunia kok, ini semua udah Allah Subhanahuwata&#39;ala takdirin. Coba untuk menguatkan iman dan tauhid, dan juga tetap ikhlas menuntut ilmu, tetap istiqomah, dan juga meminta pertolongan kepada Allah Subhanahuwata&#39;ala</description>
+    <pubDate>Sun, 26 May 2024 09:37:57 GMT</pubDate>
+  </item>
+
+  <item>
+    <guid>https://temantamanilmu.vercel.app/blog/pola-pikir-pemain-rubik</guid>
     <title>Pola pikir pemain rubik</title>
-    <link>https://mrofisr.dev/blog/pola-pikir-pemain-rubik</link>
+    <link>https://temantamanilmu.vercel.app/blog/pola-pikir-pemain-rubik</link>
     <description>Penting untuk diingat bahwa setiap tipe pemikiran memiliki kelebihan dan kekurangan masing-masing, dan tidak ada pendekatan yang benar atau salah. Hal ini dapat membantu kita memahami beragam cara orang berpikir dan bertindak dalam menghadapi tantangan dalam kehidupan sehari-hari.</description>
-    <pubDate>Sat, 20 May 2023 17:26:46 GMT</pubDate>
+    <pubDate>Sun, 26 May 2024 09:37:57 GMT</pubDate>
   </item>
 
   <item>
-    <guid>https://mrofisr.dev/blog/rukun</guid>
+    <guid>https://temantamanilmu.vercel.app/blog/rukun</guid>
     <title>Rukun</title>
-    <link>https://mrofisr.dev/blog/rukun</link>
+    <link>https://temantamanilmu.vercel.app/blog/rukun</link>
     <description>Pada awalnya semua manusia hidup dengan rukun, akan tetapi karena hal negatif lah yang membuat kita bertengkar.</description>
-    <pubDate>Sat, 20 May 2023 17:26:46 GMT</pubDate>
+    <pubDate>Sun, 26 May 2024 09:37:57 GMT</pubDate>
   </item>
 
   <item>
-    <guid>https://mrofisr.dev/blog/nggak-akan-sempurna</guid>
+    <guid>https://temantamanilmu.vercel.app/blog/nggak-akan-sempurna</guid>
     <title>Nggak Akan Pernah Sempurna</title>
-    <link>https://mrofisr.dev/blog/nggak-akan-sempurna</link>
+    <link>https://temantamanilmu.vercel.app/blog/nggak-akan-sempurna</link>
     <description>Mau gimanapun caranya, mau sekuat apapun usahanya, kita semua punya keterbatasan dan nggak akan pernah sempurna.</description>
-    <pubDate>Sat, 20 May 2023 17:26:46 GMT</pubDate>
+    <pubDate>Sun, 26 May 2024 09:37:57 GMT</pubDate>
   </item>
 
   <item>
-    <guid>https://mrofisr.dev/blog/diri-sendiri</guid>
+    <guid>https://temantamanilmu.vercel.app/blog/diri-sendiri</guid>
     <title>Diri sendiri dulu, baru orang lain</title>
-    <link>https://mrofisr.dev/blog/diri-sendiri</link>
+    <link>https://temantamanilmu.vercel.app/blog/diri-sendiri</link>
     <description>Kadang kita terlalu sibuk mencari kesalahan orang lain, sampai lupa akan cela dan kesalahan diri sendiri.</description>
-    <pubDate>Sat, 20 May 2023 17:26:46 GMT</pubDate>
+    <pubDate>Sun, 26 May 2024 09:37:57 GMT</pubDate>
   </item>
 
   <item>
-    <guid>https://mrofisr.dev/blog/belajar-bersabar</guid>
+    <guid>https://temantamanilmu.vercel.app/blog/belajar-bersabar</guid>
     <title>Belajar bersabar</title>
-    <link>https://mrofisr.dev/blog/belajar-bersabar</link>
+    <link>https://temantamanilmu.vercel.app/blog/belajar-bersabar</link>
     <description>Kehadiran mereka itulah yang mengajarkan kita bagaimana cara memaafkan dan juga bersabar, yang mungkin nggak kita dapetin dari orang lain.</description>
-    <pubDate>Sat, 20 May 2023 17:26:46 GMT</pubDate>
-  </item>
-
-  <item>
-    <guid>https://mrofisr.dev/blog/sampai-kapan</guid>
-    <title>Sampai kapan?</title>
-    <link>https://mrofisr.dev/blog/sampai-kapan</link>
-    <description>Ingat, hidup hanya di dunia hanya sementara, persiapkanlah bekal untuk pulang.</description>
-    <pubDate>Sat, 20 May 2023 17:26:46 GMT</pubDate>
+    <pubDate>Sun, 26 May 2024 09:37:57 GMT</pubDate>
   </item>
 
     </channel>

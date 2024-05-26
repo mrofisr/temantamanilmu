@@ -5,10 +5,10 @@ import Link from "next/dist/client/link";
 import config from "@/data/config";
 import { getAllTags } from "@/lib/notion";
 
-export async function getStaticProps() {
+export const getServerSideProps = async () => {
   const tags = await getAllTags();
   return { props: { tags } };
-}
+};
 
 export default function Tags({ tags }) {
   const sortedTags = Object.keys(tags).sort((a, b) => tags[b] - tags[a]);
